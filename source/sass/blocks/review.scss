@@ -1,0 +1,60 @@
+.review {
+  position: relative;
+  display: flex;
+  width: 36.7207%;
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+  }
+}
+
+.review__wrapper-picture {
+  flex-grow: 1;
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+  }
+}
+
+.review__wrapper {
+  position: absolute;
+  top: 114px;
+  left: 73.9534%;
+  padding: 30px;
+  width: 380px;
+  background-color: $basic-white;
+  color: $main-black;
+
+  @media (max-width: $tablet-width) {
+    top: 80px;
+    left: 50%;
+    margin-left: -190px;
+  }
+
+  @media (max-width: $mobile-width) {
+    top: 60px;
+    max-width: 268px;
+    margin-left: -134px;
+    padding: 21px 20px;
+  }
+}
+
+.review__picture {
+  @media (max-width: $tablet-width) {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+  }
+}
+
+.review__person {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+
+  @media (max-width: $mobile-width) {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 10px;
+  }
+}

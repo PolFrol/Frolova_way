@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: $fs-main;
+  line-height: $lh-main;
+  font-family: $font-main;
+  font-weight: $fw-normal;
+  overflow-x: hidden;
+  color: $main-black;
+}
+
+.box {
+  width: 61%;
+  margin: 0 auto;
+
+  @media (max-width: $tablet-width) {
+    width: 94%;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 90%;
+  }
+}
+
+.button {
+  display: block;
+  padding: 30px 20px;
+  font-weight: 600;
+  font-size: $fs-additional;
+  letter-spacing: 2px;
+  background-color: $special-red;
+  color: $basic-white;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}

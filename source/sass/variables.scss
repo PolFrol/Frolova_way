@@ -1,0 +1,30 @@
+//Viewports
+$mobile-width: 767px;
+$tablet-width: 1023px;
+$desktop-width: 1024px;
+// Fonts
+$font-main: "Montserrat", "Arial", sans-serif;
+$fs-main: 16px;
+$lh-main: 28px;
+$fs-accent: 55px;
+$lh-accent: 80px;
+$fs-tablet-accent: 30px;
+$lh-tablet-accent: 150%;
+$fs-additional: 12px;
+
+$lh-additional: 20px;
+$fs-tablet: 20px;
+$fw-normal: 400;
+$fw-medium: 500;
+
+// Color
+$basic-black: #000000;
+$basic-white: #ffffff;
+$special-red: #fe7865;
+$extra-black: #141517;
+$light-grey: rgba(44, 46, 63, 0.3);
+$main-black: #2c2e3f;
+$shadow: rgba(41, 54, 66, 0.1);
+$special-light-grey: #fbf8f8;
+$extra-ligth-grey: #d7d9df;
+$extra-dark-grey: rgba(20, 21, 23, 0.5);
